@@ -1,6 +1,6 @@
 <?php
 
-use Arseto\LumenCQRS\Application\QueryBus;
+use Arseto\LumenCQRS\QueryBus;
 
 class QueryBusTest extends PHPUnit\Framework\TestCase
 {
@@ -10,7 +10,7 @@ class QueryBusTest extends PHPUnit\Framework\TestCase
     protected function setup()
     {
         $this->container = $this->getMockBuilder(
-            'Arseto\LumenCQRS\Contracts\Application\Container')
+            'Arseto\LumenCQRS\Contracts\Container')
             ->getMock();
 
         $this->container->expects($this->once())
@@ -19,7 +19,7 @@ class QueryBusTest extends PHPUnit\Framework\TestCase
             ->willReturn(new FakeReader());
 
         $this->inflector = $this->getMockBuilder(
-            'Arseto\LumenCQRS\Contracts\Application\Inflector')
+            'Arseto\LumenCQRS\Contracts\Inflector')
             ->getMock();
 
         $this->inflector->expects($this->once())

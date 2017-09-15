@@ -1,5 +1,5 @@
 <?php
-namespace Arseto\LumenCQRS\Contracts\Application;
+namespace Arseto\LumenCQRS\Contracts;
 
 interface Inflector
 {

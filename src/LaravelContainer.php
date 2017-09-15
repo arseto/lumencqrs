@@ -1,9 +1,9 @@
 <?php
 
-namespace Arseto\LumenCQRS\Application;
+namespace Arseto\LumenCQRS;
 
 use Illuminate\Container\Container as IoC;
-use Arseto\LumenCQRS\Contracts\Application\Container;
+use Arseto\LumenCQRS\Contracts\Container;
 
 /**
  * Wraps Laravel IoC container

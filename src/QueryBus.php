@@ -1,10 +1,10 @@
 <?php
 
-namespace Arseto\LumenCQRS\Application;
+namespace Arseto\LumenCQRS;
 
-use Arseto\LumenCQRS\Contracts\Application\Container;
-use Arseto\LumenCQRS\Contracts\Application\Inflector;
-use Arseto\LumenCQRS\Contracts\Application\Query;
+use Arseto\LumenCQRS\Contracts\Container;
+use Arseto\LumenCQRS\Contracts\Inflector;
+use Arseto\LumenCQRS\Contracts\Query;
 
 class QueryBus
 {

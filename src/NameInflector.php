@@ -1,10 +1,10 @@
 <?php
 
-namespace Arseto\LumenCQRS\Application;
+namespace Arseto\LumenCQRS;
 
-use Arseto\LumenCQRS\Contracts\Application\Inflector;
-use Arseto\LumenCQRS\Contracts\Application\Command;
-use Arseto\LumenCQRS\Contracts\Application\Query;
+use Arseto\LumenCQRS\Contracts\Inflector;
+use Arseto\LumenCQRS\Contracts\Command;
+use Arseto\LumenCQRS\Contracts\Query;
 
 class NameInflector implements Inflector
 {

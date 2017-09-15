@@ -1,9 +1,9 @@
 <?php
 
-use Arseto\LumenCQRS\Contracts\Application\Query;
-use Arseto\LumenCQRS\Contracts\Application\Reader;
-use Arseto\LumenCQRS\Contracts\Application\Command;
-use Arseto\LumenCQRS\Contracts\Application\Handler;
+use Arseto\LumenCQRS\Contracts\Query;
+use Arseto\LumenCQRS\Contracts\Reader;
+use Arseto\LumenCQRS\Contracts\Command;
+use Arseto\LumenCQRS\Contracts\Handler;
 
 class FakeQuery implements Query
 {

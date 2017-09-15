@@ -1,6 +1,6 @@
 <?php
 
-use Arseto\LumenCQRS\Application\LaravelContainer;
+use Arseto\LumenCQRS\LaravelContainer;
 
 class LaravelContainerTest extends PHPUnit\Framework\TestCase
 {

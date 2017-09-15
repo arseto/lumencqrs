@@ -15,12 +15,12 @@ class CQRSServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(
-            'Arseto\\LumenCQRS\\Application\\Inflector',
+            'Arseto\\LumenCQRS\\Contracts\\Inflector',
             'Arseto\\LumenCQRS\\Application\\NameInflector'
         );
 
         $this->app->singleton(
-            'Arseto\\LumenCQRS\\Contracts\\Application\\Container',
+            'Arseto\\LumenCQRS\\Contracts\\Container',
             'Arseto\\LumenCQRS\\Application\\LaravelContainer'
         );
     }

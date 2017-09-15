@@ -1,6 +1,6 @@
 <?php
 
-use Arseto\LumenCQRS\Application\NameInflector;
+use Arseto\LumenCQRS\NameInflector;
 
 class NameInflectorTest extends PHPUnit\Framework\TestCase
 {
