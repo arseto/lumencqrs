@@ -1,3 +1,4 @@
+[![Build Status](https://www.travis-ci.org/arseto/lumencqrs.svg?branch=master)](https://www.travis-ci.org/arseto/lumencqrs)
 # CQRS Template for Laravel\Lumen
 
 # Overview
