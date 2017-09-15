@@ -5,7 +5,7 @@
 * Use laravel/lumen IoC container for dependency injection by default (or you can override it)
 
 # Prerequisite
-* PHP 5.6 or higher
+* PHP 7.1
 * [composer](https://getcomposer.org)
 * [Laravel](https://laravel.com) or [lumen](https://lumen.laravel.com) framework installed
 
