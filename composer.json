@@ -1,5 +1,6 @@
 {
-    "name": "arseto/LumenCQRS",
+    "name": "arseto/lumencqrs",
+    "type": "library",
     "description": "DDD Template for Laravel/Lumen",
     "license": "MIT",
     "keywords": ["domain", "cqrs", "laravel", "lumen", "DDD"],
