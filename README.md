@@ -23,4 +23,5 @@ Arseto\LumenCQRS\Providers\CQRSServiceProvider::class,
 # Usage
 * This package serves as template to implement CQRS
 * Simply create command-handler pair and query-reader pair then inject the CommandBus and QueryBus to your controller
+* Command-handler and query-reader pair must implement provided interfaces
 
