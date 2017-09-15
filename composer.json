@@ -1,0 +1,26 @@
+{
+    "name": "arseto/LumenCQRS",
+    "description": "DDD Template for Laravel/Lumen",
+    "license": "MIT",
+    "keywords": ["domain", "cqrs", "laravel", "lumen", "DDD"],
+    "authors": [
+        {
+            "name": "Arseto Nugroho",
+            "email": "satriyo.796@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "laravel/lumen-framework": "5.*"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "phpunit/phpunit": "~6.0",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arseto\\LumenCQRS\\": "src"
+        }
+    }
+}
